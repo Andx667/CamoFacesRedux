@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="CFR">
+    <Package name="Items">
+        <Key ID="STR_CFR_Items_displayName">
+            <English>Items</English>
+            <German>Gegenstände</German>
+        </Key>
+    </Package>
+</Project>
