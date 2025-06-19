@@ -48,8 +48,7 @@ class Stage3 {
 class Stage5 {
     texture = "z\cfr\items\data\tex\BW_Facepaint_smdi.paa";
     uvSource = "tex";
-    class uvTransform
-    {
+    class uvTransform {
         aside[] = {1,0,0};
         up[] = {0,1,0};
         dir[] = {0,0,0};
@@ -59,8 +58,7 @@ class Stage5 {
 class Stage6 {
     texture = "#(ai,64,64,1)fresnel(2.68,3.69)";
     uvSource = "tex";
-    class uvTransform
-    {
+    class uvTransform {
         aside[] = {1,0,0};
         up[] = {0,1,0};
         dir[] = {0,0,0};
@@ -70,8 +68,7 @@ class Stage6 {
 class Stage7 {
     texture = "a3\Data\env_co.paa";
     uvSource = "tex";
-    class uvTransform
-    {
+    class uvTransform {
         aside[] = {1,0,0};
         up[] = {0,1,0};
         dir[] = {0,0,0};
