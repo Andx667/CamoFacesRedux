@@ -22,7 +22,7 @@
 
 __Requires the latest version of [CBA A3](https://github.com/CBATeam/CBA_A3/releases/latest) and [ACE3](https://github.com/acemod/ACE3).__
 
-__Camo Faces Redux__ (CFR) gives players the possibility to camouflage their faces during Arma 3 Missions. It builds on the previous work by Sk3y and Fedlhobel in the mod [Camofaces](https://steamcommunity.com/sharedfiles/filedetails/?id=346665985&searchtext=camo+faces).
+__Camo Faces Redux__ (CFR) gives players the possibility to camouflage their faces during Arma 3 Missions. It builds on the previous work by Sk3y and Feldhobel in the mod [Camofaces](https://steamcommunity.com/sharedfiles/filedetails/?id=346665985&searchtext=camo+faces).
 
 The project is entirely __open-source__ and any contributions are welcome.
 
