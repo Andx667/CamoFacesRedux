@@ -304,7 +304,7 @@
             <English>Bahadur BW Stripes</English>
             <German>Bahadur BW Streifen</German>
         </Key>
-        <!-- Camo Faces Names -->
+        <!-- Persian Heads -->
         <Key ID="STR_CFR_Faces_PersianHead_A3_01_BWTarn">
             <English>Bahadur BW Camouflage</English>
             <German>Bahadur BW Tarn</German>
@@ -389,7 +389,7 @@
             <English>White 01 BW Stripes</English>
             <German>Weiß 01 BW Streifen</German>
         </Key>
-        <!-- White Heads (example for 01, repeat for 02-08, 16-21 as needed) -->
+        <!-- White Heads -->
         <Key ID="STR_CFR_Faces_WhiteHead_01_BWTarn">
             <English>White 01 BW Camouflage</English>
             <German>Weiß 01 BW Tarn</German>
@@ -418,8 +418,6 @@
             <English>White 02 BW Stripes</English>
             <German>Weiß 02 BW Streifen</German>
         </Key>
-        <!-- Repeat the above block for WhiteHead_02 to WhiteHead_08, WhiteHead_16 to WhiteHead_21, updating the numbers accordingly -->
-        <!-- WhiteHead_02 -->
         <Key ID="STR_CFR_Faces_WhiteHead_02_BWTarn">
             <English>White 02 BW Camouflage</English>
             <German>Weiß 02 BW Tarn</German>
@@ -448,7 +446,6 @@
             <English>White 03 BW Stripes</English>
             <German>Weiß 03 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_03 -->
         <Key ID="STR_CFR_Faces_WhiteHead_03_BWTarn">
             <English>White 03 BW Camouflage</English>
             <German>Weiß 03 BW Tarn</German>
@@ -477,7 +474,6 @@
             <English>White 04 BW Stripes</English>
             <German>Weiß 04 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_04 -->
         <Key ID="STR_CFR_Faces_WhiteHead_04_BWTarn">
             <English>White 04 BW Camouflage</English>
             <German>Weiß 04 BW Tarn</German>
@@ -506,7 +502,6 @@
             <English>White 05 BW Stripes</English>
             <German>Weiß 05 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_05 -->
         <Key ID="STR_CFR_Faces_WhiteHead_05_BWTarn">
             <English>White 05 BW Camouflage</English>
             <German>Weiß 05 BW Tarn</German>
@@ -535,7 +530,6 @@
             <English>White 06 BW Stripes</English>
             <German>Weiß 06 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_06 -->
         <Key ID="STR_CFR_Faces_WhiteHead_06_BWTarn">
             <English>White 06 BW Camouflage</English>
             <German>Weiß 06 BW Tarn</German>
@@ -564,7 +558,6 @@
             <English>White 07 BW Stripes</English>
             <German>Weiß 07 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_07 -->
         <Key ID="STR_CFR_Faces_WhiteHead_07_BWTarn">
             <English>White 07 BW Camouflage</English>
             <German>Weiß 07 BW Tarn</German>
@@ -593,7 +586,6 @@
             <English>White 08 BW Stripes</English>
             <German>Weiß 08 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_08 -->
         <Key ID="STR_CFR_Faces_WhiteHead_08_BWTarn">
             <English>White 08 BW Camouflage</English>
             <German>Weiß 08 BW Tarn</German>
@@ -622,7 +614,6 @@
             <English>White 16 BW Stripes</English>
             <German>Weiß 16 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_16 -->
         <Key ID="STR_CFR_Faces_WhiteHead_16_BWTarn">
             <English>White 16 BW Camouflage</English>
             <German>Weiß 16 BW Tarn</German>
@@ -651,7 +642,6 @@
             <English>White 17 BW Stripes</English>
             <German>Weiß 17 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_17 -->
         <Key ID="STR_CFR_Faces_WhiteHead_17_BWTarn">
             <English>White 17 BW Camouflage</English>
             <German>Weiß 17 BW Tarn</German>
@@ -680,7 +670,6 @@
             <English>White 18 BW Stripes</English>
             <German>Weiß 18 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_18 -->
         <Key ID="STR_CFR_Faces_WhiteHead_18_BWTarn">
             <English>White 18 BW Camouflage</English>
             <German>Weiß 18 BW Tarn</German>
@@ -709,7 +698,6 @@
             <English>White 19 BW Stripes</English>
             <German>Weiß 19 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_19 -->
         <Key ID="STR_CFR_Faces_WhiteHead_19_BWTarn">
             <English>White 19 BW Camouflage</English>
             <German>Weiß 19 BW Tarn</German>
@@ -738,7 +726,6 @@
             <English>White 20 BW Stripes</English>
             <German>Weiß 20 BW Streifen</German>
         </Key>
-        <!-- WhiteHead_20 -->
         <Key ID="STR_CFR_Faces_WhiteHead_20_BWTarn">
             <English>White 20 BW Camouflage</English>
             <German>Weiß 20 BW Tarn</German>
