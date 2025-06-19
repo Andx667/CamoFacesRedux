@@ -6,3 +6,5 @@ overviewPicture = "logo_cfr_ca.paa";
 picture = "logo_cfr_ca.paa";
 logo = "logo_cfr_ca.paa";
 logoOver = "logo_cfr_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/Andx667/CamoFacesRedux";
