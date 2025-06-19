@@ -1,6 +1,6 @@
-name = "MOD_TITLE"
-author = "DartRuffian"
-prefix = "MOD_PREFIX"
+name = "Camo Faces Redux"
+author = "Andx"
+prefix = "cfr"
 mainprefix = "z"
 
 [version]
@@ -11,12 +11,12 @@ git_hash = 0
 include = [
     "mod.cpp",
     "meta.cpp",
-    "logo_MOD_PREFIX.png",
-    "logo_MOD_PREFIX_ca.paa",
+    "logo_cfr.png",
+    "logo_cfr_ca.paa",
     "LICENSE.md",
     "README.md",
 ]
 exclude = []
 
 [properties]
-author = "DartRuffian"
+author = "Andx"

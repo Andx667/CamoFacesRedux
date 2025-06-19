@@ -1,4 +1,4 @@
-MOD_PREFIX_main
+cfr_main
 ===================
 
-Main Addon for MOD_TITLE
+Main Addon for Camo Faces Redux

@@ -1,7 +1,7 @@
 #define MAINPREFIX z
-#define PREFIX MOD_PREFIX
-#define MOD_NAME MOD_TITLE
-#define AUTHOR "DartRuffian"
+#define PREFIX cfr
+#define MOD_NAME Camo Faces Redux
+#define AUTHOR "Andx"
 
 #define REQUIRED_VERSION 2.18
 #define REQUIRED_CBA_VERSION {3,18,1}
