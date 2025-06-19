@@ -34,60 +34,60 @@
             <German>Bahadur US Sprüh</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_BWTarn">
-            <English>Bahadur BW Camouflage</English>
-            <German>Bahadur BW Tarn</German>
+            <English>Jalali BW Camouflage</English>
+            <German>Jalali BW Tarn</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_BWStripes">
-            <English>Bahadur BW Stripes</English>
-            <German>Bahadur BW Streifen</German>
+            <English>Jalali BW Stripes</English>
+            <German>Jalali BW Streifen</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_Black">
-            <English>Bahadur Black</English>
-            <German>Bahadur Schwarz</German>
+            <English>Jalali Black</English>
+            <German>Jalali Schwarz</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_Serbian">
-            <English>Bahadur Serbian</English>
-            <German>Bahadur Serbisch</German>
+            <English>Jalali Serbian</English>
+            <German>Jalali Serbisch</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_USStripes">
-            <English>Bahadur US Stripes</English>
-            <German>Bahadur US Streifen</German>
+            <English>Jalali US Stripes</English>
+            <German>Jalali US Streifen</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_USStains">
-            <English>Bahadur US Stains</English>
-            <German>Bahadur US Flecken</German>
+            <English>Jalali US Stains</English>
+            <German>Jalali US Flecken</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_02_USFlash">
-            <English>Bahadur US Flash</English>
-            <German>Bahadur US Sprüh</German>
+            <English>Jalali US Flash</English>
+            <German>Jalali US Sprüh</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_BWTarn">
-            <English>Bahadur BW Camouflage</English>
-            <German>Bahadur BW Tarn</German>
+            <English>Sabet BW Camouflage</English>
+            <German>Sabet BW Tarn</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_BWStripes">
-            <English>Bahadur BW Stripes</English>
-            <German>Bahadur BW Streifen</German>
+            <English>Sabet BW Stripes</English>
+            <German>Sabet BW Streifen</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_Black">
-            <English>Bahadur Black</English>
-            <German>Bahadur Schwarz</German>
+            <English>Sabet Black</English>
+            <German>Sabet Schwarz</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_Serbian">
-            <English>Bahadur Serbian</English>
-            <German>Bahadur Serbisch</German>
+            <English>Sabet Serbian</English>
+            <German>Sabet Serbisch</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_USStripes">
-            <English>Bahadur US Stripes</English>
-            <German>Bahadur US Streifen</German>
+            <English>Sabet US Stripes</English>
+            <German>Sabet US Streifen</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_USStains">
-            <English>Bahadur US Stains</English>
-            <German>Bahadur US Flecken</German>
+            <English>Sabet US Stains</English>
+            <German>Sabet US Flecken</German>
         </Key>
         <Key ID="STR_CFR_Faces_PersianHead_A3_03_USFlash">
-            <English>Bahadur US Flash</English>
-            <German>Bahadur US Sprüh</German>
+            <English>Sabet US Flash</English>
+            <German>Sabet US Sprüh</German>
         </Key>
     </Package>
 </Project>
