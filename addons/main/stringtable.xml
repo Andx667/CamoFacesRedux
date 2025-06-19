@@ -3,6 +3,7 @@
     <Package name="Main">
         <Key ID="STR_CFR_Main_displayName">
             <English>Main</English>
+            <German>Main</German>
         </Key>
         <Key ID="STR_CFR_Main_url">
             <English>https://github.com/Andx667/CamoFacesRedux</English>
@@ -19,6 +20,10 @@
             <Chinese>https://github.com/Andx667/CamoFacesRedux</Chinese>
             <Chinesesimp>https://github.com/Andx667/CamoFacesRedux</Chinesesimp>
             <Turkish>https://github.com/Andx667/CamoFacesRedux</Turkish>
+        </Key>
+        <Key ID="STR_CFR_Main_Name">
+            <English>Camo Faces Redux</English>
+            <German>Camo Faces Redux</German>
         </Key>
     </Package>
 </Project>
