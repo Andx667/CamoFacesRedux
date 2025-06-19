@@ -1,6 +1,5 @@
 # Camo Faces Redux
 
-<h1 align="center">Camo Faces Redux</h1>
 <p align="center">
     <a href="https://github.com/Andx667/CamoFacesRedux/releases/latest">
         <img src="https://img.shields.io/badge/Version-0.0.0-blue?style=flat-square" alt="Camo Faces Redux Version">
@@ -19,13 +18,11 @@
     <img src="https://img.shields.io/github/actions/workflow/status/Andx667/CamoFacesRedux/arma.yml?style=flat-square&label=Validate" alt="Validate">
 </p>
 
-<p align="center">
-    <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a> and <a href="https://github.com/acemod/ACE3">ACE3</a></b>
-</p>
+__Requires the latest version of [CBA A3](https://github.com/CBATeam/CBA_A3/releases/latest) and [ACE3](https://github.com/acemod/ACE3).__
 
-**Camo Faces Redux** (CFR) aims to...
+__Camo Faces Redux__ (CFR) gives players the possibility to camouflage their faces during Arma 3 Missions.
 
-The project is entirely **open-source** and any contributions are welcome.
+The project is entirely __open-source__ and any contributions are welcome.
 
 ## Core Features
 
