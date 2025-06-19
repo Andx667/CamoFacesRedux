@@ -23,21 +23,6 @@
     <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a></b>
 </p>
 
-# Initial Project Setup
-
-Delete this section after the project has been initially set up:
-
-1. Find and replace all instances of `Camo Faces Redux` with the mod's name.
-2. Find and replace all instances of `CamoFacesRedux` with the mod's name *and no spaces*.
-   - This should be the name of the repository on GitHub.
-3. Find and replace all instances of `cfr` with the mod's prefix.
-   - This should be all lowercase.
-4. Find and replace all instances of `CFR` with the mod's acronym.
-   - This should be all uppercase.
-5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
-
-For third parties, make sure to also replace `Andx667` with your Github username / organization name, and to replace `Andx` with your username.
-
 **Camo Faces Redux** (CFR) aims to...
 
 The project is entirely **open-source** and any contributions are welcome.
