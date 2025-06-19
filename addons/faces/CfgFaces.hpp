@@ -5,19 +5,6 @@ class CfgFaces {
 
         class Default;
 
-        class AsianHead_A3_01;
-		class WhiteHead_01;
-		class WhiteHead_16;
-		class WhiteHead_17;
-		class WhiteHead_18;
-		class WhiteHead_19;
-		class WhiteHead_20;
-		class WhiteHead_21;
-		class AfricanHead_01;
-		class GreekHead_A3_01;
-		class GreekHead_A3_03;
-		class PersianHead_A3_01;
-
         class GVAR(PersianHead_A3_01_BWTarn): Default {
             author = AUTHOR;
             displayname = CSTRING(PersianHead_A3_01_BWTarn);
@@ -246,6 +233,129 @@ class CfgFaces {
             material = QPATHTOF(data\usflash\PHA303\m_persian_01.rvmat);
             materialWounded1 = QPATHTOF(data\usflash\PHA303\m_persian_01_injury.rvmat);
             materialWounded2 = QPATHTOF(data\usflash\PHA303\m_persian_01_injury.rvmat);
+            disabled = 1;
+        };
+
+        class AfricanHead_01;
+        class GVAR(AfricanHead_01_BWTarn): AfricanHead_01 {
+            author = AUHTOR;
+            displayname = CSTRING(AfricanHead_01_BWTarn);
+            texture = QPATHTOF(data\bwtarn\AH01\m_african_01_co.paa);
+            identityTypes[] = {};
+            disabled = 1;
+        };
+        class GVAR(AfricanHead_01_BWStripes): GVAR(AfricanHead_01_BWTarn) {
+
+            displayname = CSTRING(AfricanHead_01_BWStripes);
+            texture = QPATHTOF(data\bwstripes\AH01\m_african_01_co.paa);
+        };
+
+        class GVAR(AfricanHead_01_Serbian):GVAR(AfricanHead_01_BWTarn) {
+            displayname = "$STR_A3_NATOMen_LastNames112_cfaces_serbian";
+            texture = "\jgkp_camofaces\Heads\serbian\AH01\m_african_01_co.paa";
+        };
+        class AfricanHead_01_cfaces_USStripes: AfricanHead_01 {
+            displayname = "$STR_A3_NATOMen_LastNames112_cfaces_usstripes";
+            texture = "\jgkp_camofaces\Heads\usstripes\AH01\m_african_01_co.paa";
+        };
+        class AfricanHead_01_cfaces_USStains: AfricanHead_01
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_NATOMen_LastNames112_cfaces_usstains";
+            texture = "\jgkp_camofaces\Heads\usstains\AH01\m_african_01_co.paa";
+            identityTypes[] = {};
+            disabled = 1;
+        };
+        class AfricanHead_01_cfaces_USFlash: AfricanHead_01
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_NATOMen_LastNames112_cfaces_usflash";
+            texture = "\jgkp_camofaces\Heads\usflash\AH01\m_african_01_co.paa";
+            identityTypes[] = {};
+            disabled = 1;
+        };
+        class AfricanHead_02_cfaces_BWTarn: AfricanHead_01_cfaces_BWTarn
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_AfroMen_firstnames9_cfaces_bwtarn";
+            texture = "\jgkp_camofaces\Heads\bwtarn\AH02\m_african_02_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_02_cfaces_BWStripes: AfricanHead_01_cfaces_BWStripes
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_AfroMen_firstnames9_cfaces_bwstripes";
+            texture = "\jgkp_camofaces\Heads\bwstripes\AH02\m_african_02_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_02_cfaces_Serbian: AfricanHead_01_cfaces_Serbian
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_AfroMen_firstnames9_cfaces_serbian";
+            texture = "\jgkp_camofaces\Heads\serbian\AH02\m_african_02_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_02_cfaces_USStripes: AfricanHead_01_cfaces_USStripes
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_AfroMen_firstnames9_cfaces_usstripes";
+            texture = "\jgkp_camofaces\Heads\usstripes\AH02\m_african_02_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_02_cfaces_USStains: AfricanHead_01_cfaces_USStains
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_AfroMen_firstnames9_cfaces_usstains";
+            texture = "\jgkp_camofaces\Heads\usstains\AH02\m_african_02_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_02_cfaces_USFlash: AfricanHead_01_cfaces_USFlash
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_AfroMen_firstnames9_cfaces_usflash";
+            texture = "\jgkp_camofaces\Heads\usflash\AH02\m_african_02_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_03_cfaces_BWTarn: AfricanHead_01_cfaces_BWTarn
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_CivMen_FirstNames26_cfaces_bwtarn";
+            texture = "\jgkp_camofaces\Heads\bwtarn\AH03\m_african_03_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_03_cfaces_BWStripes: AfricanHead_01_cfaces_BWStripes
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_CivMen_FirstNames26_cfaces_bwstripes";
+            texture = "\jgkp_camofaces\Heads\bwstripes\AH03\m_african_03_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_03_cfaces_Serbian: AfricanHead_01_cfaces_Serbian
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_CivMen_FirstNames26_cfaces_serbian";
+            texture = "\jgkp_camofaces\Heads\serbian\AH03\m_african_03_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_03_cfaces_USStripes: AfricanHead_01_cfaces_USStripes
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_CivMen_FirstNames26_cfaces_usstripes";
+            texture = "\jgkp_camofaces\Heads\usstripes\AH03\m_african_03_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_03_cfaces_USStains: AfricanHead_01_cfaces_USStains
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_CivMen_FirstNames26_cfaces_usstains";
+            texture = "\jgkp_camofaces\Heads\usstains\AH03\m_african_03_co.paa";
+            disabled = 1;
+        };
+        class AfricanHead_03_cfaces_USFlash: AfricanHead_01_cfaces_USFlash
+        {
+            author = "$STR_3Jgkp_Author";
+            displayname = "$STR_A3_CivMen_FirstNames26_cfaces_usflash";
+            texture = "\jgkp_camofaces\Heads\usflash\AH03\m_african_03_co.paa";
             disabled = 1;
         };
     };
