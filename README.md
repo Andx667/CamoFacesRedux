@@ -1,5 +1,7 @@
 # Camo Faces Redux
 
+![Camo Faces Redux Logo](https://github.com/Andx667/CamoFacesRedux/blob/main/logo_cfr.png)
+
 <p align="center">
     <a href="https://github.com/Andx667/CamoFacesRedux/releases/latest">
         <img src="https://img.shields.io/badge/Version-0.0.0-blue?style=flat-square" alt="Camo Faces Redux Version">
@@ -10,7 +12,7 @@
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
         <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="Camo Faces Redux Downloads">
     </a>
-    <a href="https://github.com/Andx667/CamoFacesRedux/blob/master/LICENSE">
+    <a href="https://github.com/Andx667/CamoFacesRedux/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="Camo Faces Redux License">
     </a>
     <br>
