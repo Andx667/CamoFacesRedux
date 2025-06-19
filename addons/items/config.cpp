@@ -10,10 +10,18 @@ class CfgPatches {
         requiredAddons[] = {
             "cfr_main"
         };
-        units[] = {};
-        weapons[] = {};
+        units[] = {
+            QGVAR(box),
+        };
+        weapons[] = {
+            QGVAR(US_Facepaint),
+            QGVAR(BW_Facepaint),
+            QGVAR(SERBIAN_Facepaint),
+        };
         VERSION_CONFIG;
     };
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
