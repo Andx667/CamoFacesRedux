@@ -89,30 +89,3 @@
 #define TYPE_BINOCULAR_AND_NVG 4096
 #define TYPE_WEAPON_VEHICLE 65536
 #define TYPE_ITEM 131072
-// Item types
-#define TYPE_DEFAULT 0
-#define TYPE_MUZZLE 101
-#define TYPE_OPTICS 201
-#define TYPE_FLASHLIGHT 301
-#define TYPE_BIPOD 302
-#define TYPE_FIRST_AID_KIT 401
-#define TYPE_FINS 501 // not implemented
-#define TYPE_BREATHING_BOMB 601 // not implemented
-#define TYPE_NVG 602
-#define TYPE_GOGGLE 603
-#define TYPE_SCUBA 604 // not implemented
-#define TYPE_HEADGEAR 605
-#define TYPE_FACTOR 607
-#define TYPE_MAP 608
-#define TYPE_COMPASS 609
-#define TYPE_WATCH 610
-#define TYPE_RADIO 611
-#define TYPE_GPS 612
-#define TYPE_HMD 616
-#define TYPE_BINOCULAR 617
-#define TYPE_MEDIKIT 619
-#define TYPE_TOOLKIT 620
-#define TYPE_UAV_TERMINAL 621
-#define TYPE_VEST 701
-#define TYPE_UNIFORM 801
-#define TYPE_BACKPACK 901
