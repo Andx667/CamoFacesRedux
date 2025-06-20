@@ -38,7 +38,7 @@ class GVAR(Dialog) {
         font = "EtelkaMonospacePro";
         sizeEx = 0.03;
         rowHeight = 0.05;
-        onLBSelChanged = QUOTE(call QFUNC(onLBCountryChanged););
+        onLBSelChanged = QUOTE(call FUNC(onLBCountryChanged););
         colorText[] = {0.3,0.3,0.3,1};
         colorDisabled[] = {1,1,1,1};
         colorScrollbar[] = {1,0,0,0};
@@ -58,7 +58,7 @@ class GVAR(Dialog) {
         font = "EtelkaMonospacePro";
         sizeEx = 0.03;
         rowHeight = 0.05;
-        onLBSelChanged = QUOTE(call QFUNC(onLBCamoChanged););
+        onLBSelChanged = QUOTE(call FUNC(onLBCamoChanged););
         colorText[] = {0.3,0.3,0.3,1};
         colorDisabled[] = {1,1,1,1};
         colorScrollbar[] = {1,0,0,0};
@@ -189,7 +189,7 @@ class GVAR(Dialog) {
         y = "(21.8 * (0.04)+ (0)) * (0.8)+ (5 * (0.04)+ (0))";
         w = "(33 * (0.025)) * (0.8)";
         h = "(2 * (0.04)) * (0.8)";
-        action = "call EFUNC(unsetCamo)";
+        action = "call EFUNC(common,unsetCamo)";
         sizeEx = 0.05;
         font = "PuristaBold";
         shadow = 0;
