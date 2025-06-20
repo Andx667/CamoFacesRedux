@@ -8,7 +8,7 @@ class GVAR(AsianHead_A3_01_BWTarn): AsianHead_A3_01 {
     material = QPATHTOF(data\bwtarn\AsHA301\m_asian_01.rvmat);
     materialWounded1 = QPATHTOF(data\bwtarn\AsHA301\m_asian_01_injury.rvmat);
     materialWounded2 = QPATHTOF(data\bwtarn\AsHA301\m_asian_01_injury.rvmat);
-    disabled = 1;
+    disabled = 0;
 };
 class GVAR(AsianHead_A3_01_BWStripes): GVAR(AsianHead_A3_01_BWTarn) {
     displayname = CSTRING(AsianHead_A3_01_BWStripes);

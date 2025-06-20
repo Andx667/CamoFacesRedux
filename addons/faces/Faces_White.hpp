@@ -5,7 +5,7 @@ class GVAR(WhiteHead_01_BWTarn): WhiteHead_01 {
     displayname = CSTRING(WhiteHead_01_BWTarn);
     texture = QPATHTOF(data\bwtarn\WH01\m_white_01_co.paa);
     identityTypes[] = {};
-    disabled = 1;
+    disabled = 0;
 };
 class GVAR(WhiteHead_01_BWStripes): GVAR(WhiteHead_01_BWTarn) {
     displayname = CSTRING(WhiteHead_01_BWStripes);

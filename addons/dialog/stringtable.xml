@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CFR">
     <Package name="Dialog">
+        <Key ID="STR_CFR_Dialog_Action">
+            <English>Camo Faces</English>
+            <German>Camo Faces</German>
+        </Key>
         <Key ID="STR_CFR_Dialog_displayName">
             <English>Dialog</English>
             <German>Dialog</German>
@@ -8,10 +12,6 @@
         <Key ID="STR_CFR_Dialog_noOption">
             <English>No Option</English>
             <German>Keine Option</German>
-        </Key>
-        <Key ID="STR_CFR_Dialog_Action">
-            <English>Camo Faces</English>
-            <German>Camo Faces</German>
         </Key>
     </Package>
 </Project>

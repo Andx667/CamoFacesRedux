@@ -8,7 +8,7 @@ class GVAR(PersianHead_A3_01_BWTarn): Default {
     material = QPATHTOF(data\bwtarn\PHA301\m_persian_01.rvmat);
     materialWounded1 = QPATHTOF(data\bwtarn\PHA301\m_persian_01_injury.rvmat);
     materialWounded2 = QPATHTOF(data\bwtarn\PHA301\m_persian_01_injury.rvmat);
-    disabled = 1;
+    disabled = 0;
 };
 class GVAR(PersianHead_A3_01_BWStripes): GVAR(PersianHead_A3_01_BWTarn) {
     displayname = CSTRING(PersianHead_A3_01_BWStripes);
