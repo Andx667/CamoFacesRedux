@@ -1,16 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx, Sk3y
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Button <BUTTON>
+ * 1: Selected Item <STRING>
  *
  * Return Value:
- * Return description <NONE>
+ * None
  *
  * Example:
- * [params] call PREFIX_dialog_fnc_onLBCamoChange
+ * [my_button] call cfr_dialog_fnc_onLBCamoChange
  *
  * Public: No
  */
@@ -24,7 +25,7 @@ disableSerialization;
 // controls for pictures
 _face = (face player);
 
-if (!GVAR(hasHelmet) && !GVAR(hasGoggles) && !GVAR(hasNV) && _face in faces) then {
+if (!GVAR(hasHelmet) && !GVAR(hasGoggles) && !GVAR(hasNV) && _face in GVAR(faces)) then { //ToDo change check to local variable on player (or something better)
 	// allow first button
 	_button1 = (findDisplay 311) displayCtrl 5362;
 	_button1 ctrlEnable true;

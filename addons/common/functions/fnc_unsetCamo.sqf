@@ -1,16 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx, Sk3y
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Unit <OBJECT>
+ * 1: Face <STRING>
  *
  * Return Value:
- * Return description <NONE>
+ * None
  *
  * Example:
- * [params] call PREFIX_common_fnc_unsetCamo
+ * [player, "camoface"] call cfr_common_fnc_unsetCamo
  *
  * Public: No
  */
@@ -40,14 +41,14 @@ if (_face in GVAR(faces_bwtarn)) then {
                 //[-2, {unit setface ns}] call CBA_fnc_globalExecute;
                 hint "Tarnung abgelegt";
         } else {
-            if (_face in faces_serbian || _face in faces_usflash) then {
+            if (_face in GVAR(faces_serbian) || _face in GVAR(faces_usflash)) then {
                 _ns = [_face, 0, -15] call BIS_fnc_trimString; //_unit setface _ns;
             [[_unit,_ns], "setFace", true, false] call BIS_fnc_mp;
                 _unit setVariable [QGVAR(face), _ns, true];
                 //[-2, {unit setface ns}] call CBA_fnc_globalExecute;
                 hint "Tarnung abgelegt";
             } else {
-                if (_face in faces_usstains) then {
+                if (_face in GVAR(faces_usstains)) then {
                     _ns = [_face, 0, -16] call BIS_fnc_trimString; //_unit setface _ns;
                     [[_unit,_ns], "setFace", true, false] call BIS_fnc_mp;
                     _unit setVariable [QGVAR(face), _ns, true];

@@ -1,16 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx, Sk3y
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Button <BUTTON>
+ * 1: Selected Item <STRING>
  *
  * Return Value:
- * Return description <NONE>
+ * None
  *
  * Example:
- * [params] call PREFIX_dialog_fnc_onLBCountyChanged
+ * [my_button] call cfr_dialog_fnc_onLBCountyChanged
  *
  * Public: No
  */
@@ -22,13 +23,13 @@ TRACE_1("fnc_onLBCountyChanged",_this);
 disableSerialization;
 
 // lb actions
-_lbCamo = (findDisplay 311) displayCtrl 5263;
+private _lbCamo = (findDisplay 311) displayCtrl 5263;
 
 //first clear box
 lbClear _lbCamo;
 
 // fill with options
-_camoOptions = [(_lbCountry lbData _selItem)] call EFUNC(common,getCamoOptions);
+private _camoOptions = [(_lbCountry lbData _selItem)] call EFUNC(common,getCamoOptions);
 
 {
 	// text

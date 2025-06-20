@@ -1,16 +1,16 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx, Sk3y
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * None
  *
  * Return Value:
- * Return description <NONE>
+ * None
  *
  * Example:
- * [params] call PREFIX_common_fnc_init
+ * [] call cfr_common_fnc_init
  *
  * Public: No
  */

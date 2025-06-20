@@ -1,16 +1,16 @@
 #include "..\script_component.hpp"
 /*
- * Authors: Andx
+ * Authors: Andx, Sk3y
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: DISPLAY <DISPLAY>
  *
  * Return Value:
- * Return description <NONE>
+ * None
  *
  * Example:
- * [params] call PREFIX_dialog_fnc_initDialog
+ * [my_display] call cfr_dialog_fnc_initDialog
  *
  * Public: No
  */
@@ -18,7 +18,6 @@
 params ["_display"];
 TRACE_1("fnc_initDialog",_this);
 
-//hint "Dialog initialisiert";
 disableSerialization;
 
 // set texture for day or night
@@ -26,13 +25,12 @@ _hour = date select 3;
 _box = _display displayCtrl 4961;
 _notepad = _display displayCtrl 4966;
 
+//ToDo Fix
 if (_hour > 21 || _hour < 6) then {
-
 	_box ctrlSetText QPATHTOF(data\UI\box_night.paa);
 	_notepad ctrlSetText QPATHTOF(data\UI\notepad_night.paa);
 
 } else {
-
 	_box ctrlSetText QPATHTOF(data\UI\box.paa);
 	_notepad ctrlSetText QPATHTOF(data\UI\notepad.paa);
 };
@@ -61,7 +59,7 @@ _green = [0, 1, 0, 0.6];
 // check if player has helmet, googles, nv equipped
 if (headgear player == "") then {
 	_backHelmet ctrlSetBackgroundColor _green;
-	GVAR(hasHelmet) = false;
+	GVAR(hasHelmet) = false; //ToDo Maybe these should not be global variables and instead be set on the unit
 } else {
 	_backHelmet ctrlSetBackgroundColor _red;
 	GVAR(hasHelmet) = true;

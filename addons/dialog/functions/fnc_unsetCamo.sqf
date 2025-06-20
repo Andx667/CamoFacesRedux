@@ -1,16 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx, Sk3y
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Unit (default: player) <OBJECT>
+ * 1: Camoface <STRING>
  *
  * Return Value:
- * Return description <NONE>
+ * None
  *
  * Example:
- * [params] call PREFIX_dialog_fnc_unsetCamo
+ * [player, camofaces] call cfr_dialog_fnc_unsetCamo
  *
  * Public: No
  */
@@ -21,12 +22,11 @@ params [
 ];
 TRACE_1("fnc_unsetCamo",_this);
 
-if (_face in faces_bwtarn || _face in faces_black || _face in faces_bwstripes ||
- _face in faces_serbian || _face in faces_usstripes || _face in faces_usflash ||
- _face in faces_usstains) then {
+if (_face in GVAR(faces_bwtarn) || _face in GVAR(faces_black) || _face in GVAR(faces_bwstripes) ||
+ _face in GVAR(faces_serbian) || _face in GVAR(faces_usstripes) || _face in GVAR(faces_usflash) ||
+ _face in GVAR(faces_usstains)) then {
 	[_unit, _face] call EFUNC(common,unsetCamo);
 	hint "camo face removed";
 } else {
 	hint "no camo face applied";
-
 };
