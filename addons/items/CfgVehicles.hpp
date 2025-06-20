@@ -1,9 +1,10 @@
 class CfgVehicles {
-    class NATO_Box_Base;
-    class GVAR(box): NATO_Box_Base {
+    class Box_NATO_Support_F;
+    class GVAR(box): Box_NATO_Support_F {
         scope = 2;
         displayName = CSTRING(box_displayName);
         author = AUTHOR;
+        editorSubcategory = QEGVAR(main,cfr);
 
         class TransportWeapons {};
         class TransportMagazines {};
