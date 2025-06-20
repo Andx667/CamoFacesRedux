@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CFR">
     <Package name="Items">
-        <Key ID="STR_CFR_Items_displayName">
-            <English>Items</English>
-            <German>Gegenstände</German>
-        </Key>
-        <Key ID="STR_CFR_Items_us_facepaint_displayname">
-            <English>US Facepaint Sticks</English>
-            <German>US Tarnschminke</German>
-        </Key>
-        <Key ID="STR_CFR_Items_bw_facepaint_displayname">
-            <English>BW Facepaint</English>
-            <German>BW Tarnschminke</German>
-        </Key>
-        <Key ID="STR_CFR_Items_serbian_facepaint_displayname">
-            <English>Serbian Facepaint Sticks</English>
-            <German>Serbische Tarnschminke</German>
-        </Key>
         <Key ID="STR_CFR_Items_box_displayname">
             <English>Box of Facepaint</English>
             <German>Kiste mit Tarnschminke</German>
-        </Key>
-        <Key ID="STR_CFR_Items_us_facepaint_descriptionshort">
-            <English>Used by the US Armed Forces</English>
-            <German>Benutzt von den US Streikräften</German>
         </Key>
         <Key ID="STR_CFR_Items_bw_facepaint_descriptionshort">
             <English>Used by the German Armed Forces</English>
             <German>Benutzt von der Bundeswehr</German>
         </Key>
+        <Key ID="STR_CFR_Items_bw_facepaint_displayname">
+            <English>BW Facepaint</English>
+            <German>BW Tarnschminke</German>
+        </Key>
+        <Key ID="STR_CFR_Items_displayName">
+            <English>Items</English>
+            <German>Gegenstände</German>
+        </Key>
         <Key ID="STR_CFR_Items_serbian_facepaint_descriptionshort">
             <English>Used by the Serbian Armed Forces</English>
             <German>Benutzt von den Serbischen Streitkräften</German>
+        </Key>
+        <Key ID="STR_CFR_Items_serbian_facepaint_displayname">
+            <English>Serbian Facepaint Sticks</English>
+            <German>Serbische Tarnschminke</German>
+        </Key>
+        <Key ID="STR_CFR_Items_us_facepaint_descriptionshort">
+            <English>Used by the US Armed Forces</English>
+            <German>Benutzt von den US Streikräften</German>
+        </Key>
+        <Key ID="STR_CFR_Items_us_facepaint_displayname">
+            <English>US Facepaint Sticks</English>
+            <German>US Tarnschminke</German>
         </Key>
     </Package>
 </Project>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CFR">
     <Package name="Main">
+        <Key ID="STR_CFR_Main_Name">
+            <English>Camo Faces Redux</English>
+            <German>Camo Faces Redux</German>
+        </Key>
         <Key ID="STR_CFR_Main_displayName">
             <English>Main</English>
             <German>Main</German>
@@ -20,10 +24,6 @@
             <Chinese>https://github.com/Andx667/CamoFacesRedux</Chinese>
             <Chinesesimp>https://github.com/Andx667/CamoFacesRedux</Chinesesimp>
             <Turkish>https://github.com/Andx667/CamoFacesRedux</Turkish>
-        </Key>
-        <Key ID="STR_CFR_Main_Name">
-            <English>Camo Faces Redux</English>
-            <German>Camo Faces Redux</German>
         </Key>
     </Package>
 </Project>

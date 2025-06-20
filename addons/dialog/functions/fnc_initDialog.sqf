@@ -35,7 +35,6 @@ if (_hour > 21 || _hour < 6) then {
 
 	_box ctrlSetText QPATHTOF(data\UI\box.paa);
 	_notepad ctrlSetText QPATHTOF(data\UI\notepad.paa);
-
 };
 
 // deactivate button
