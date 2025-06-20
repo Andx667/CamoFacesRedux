@@ -235,7 +235,211 @@ class GVAR(WhiteHead_08_USFlash): GVAR(WhiteHead_01_BWTarn) {
     texture = QPATHTOF(data\usflash\WH08\m_white_08_co.paa);
 };
 
+
 //ToDo 9-15
+
+class GVAR(WhiteHead_09_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH09\m_white_09_co.paa);
+};
+class GVAR(WhiteHead_09_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH09\m_white_09_co.paa);
+};
+class GVAR(WhiteHead_09_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_Black);
+    texture = QPATHTOF(data\black\WH09\m_white_09_co.paa);
+};
+class GVAR(WhiteHead_09_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_Serbian);
+    texture = QPATHTOF(data\serbian\WH09\m_white_09_co.paa);
+};
+class GVAR(WhiteHead_09_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_USStripes);
+    texture = QPATHTOF(data\usstripes\WH09\m_white_09_co.paa);
+};
+class GVAR(WhiteHead_09_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_USStains);
+    texture = QPATHTOF(data\usstains\WH09\m_white_09_co.paa);
+};
+class GVAR(WhiteHead_09_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_09_USFlash);
+    texture = QPATHTOF(data\usflash\WH09\m_white_09_co.paa);
+};
+
+class GVAR(WhiteHead_10_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH10\m_white_10_co.paa);
+};
+class GVAR(WhiteHead_10_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH10\m_white_10_co.paa);
+};
+class GVAR(WhiteHead_10_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_Black);
+    texture = QPATHTOF(data\black\WH10\m_white_10_co.paa);
+};
+class GVAR(WhiteHead_10_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_Serbian);
+    texture = QPATHTOF(data\serbian\WH10\m_white_10_co.paa);
+};
+class GVAR(WhiteHead_10_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_USStripes);
+    texture = QPATHTOF(data\usstripes\WH10\m_white_10_co.paa);
+};
+class GVAR(WhiteHead_10_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_USStains);
+    texture = QPATHTOF(data\usstains\WH10\m_white_10_co.paa);
+};
+class GVAR(WhiteHead_10_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_10_USFlash);
+    texture = QPATHTOF(data\usflash\WH10\m_white_10_co.paa);
+};
+
+class GVAR(WhiteHead_11_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH11\m_white_11_co.paa);
+};
+class GVAR(WhiteHead_11_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH11\m_white_11_co.paa);
+};
+class GVAR(WhiteHead_11_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_Black);
+    texture = QPATHTOF(data\black\WH11\m_white_11_co.paa);
+};
+class GVAR(WhiteHead_11_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_Serbian);
+    texture = QPATHTOF(data\serbian\WH11\m_white_11_co.paa);
+};
+class GVAR(WhiteHead_11_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_USStripes);
+    texture = QPATHTOF(data\usstripes\WH11\m_white_11_co.paa);
+};
+class GVAR(WhiteHead_11_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_USStains);
+    texture = QPATHTOF(data\usstains\WH11\m_white_11_co.paa);
+};
+class GVAR(WhiteHead_11_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_11_USFlash);
+    texture = QPATHTOF(data\usflash\WH11\m_white_11_co.paa);
+};
+
+class GVAR(WhiteHead_12_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH12\m_white_12_co.paa);
+};
+class GVAR(WhiteHead_12_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH12\m_white_12_co.paa);
+};
+class GVAR(WhiteHead_12_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_Black);
+    texture = QPATHTOF(data\black\WH12\m_white_12_co.paa);
+};
+class GVAR(WhiteHead_12_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_Serbian);
+    texture = QPATHTOF(data\serbian\WH12\m_white_12_co.paa);
+};
+class GVAR(WhiteHead_12_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_USStripes);
+    texture = QPATHTOF(data\usstripes\WH12\m_white_12_co.paa);
+};
+class GVAR(WhiteHead_12_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_USStains);
+    texture = QPATHTOF(data\usstains\WH12\m_white_12_co.paa);
+};
+class GVAR(WhiteHead_12_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_12_USFlash);
+    texture = QPATHTOF(data\usflash\WH12\m_white_12_co.paa);
+};
+
+class GVAR(WhiteHead_13_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH13\m_white_13_co.paa);
+};
+class GVAR(WhiteHead_13_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH13\m_white_13_co.paa);
+};
+class GVAR(WhiteHead_13_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_Black);
+    texture = QPATHTOF(data\black\WH13\m_white_13_co.paa);
+};
+class GVAR(WhiteHead_13_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_Serbian);
+    texture = QPATHTOF(data\serbian\WH13\m_white_13_co.paa);
+};
+class GVAR(WhiteHead_13_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_USStripes);
+    texture = QPATHTOF(data\usstripes\WH13\m_white_13_co.paa);
+};
+class GVAR(WhiteHead_13_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_USStains);
+    texture = QPATHTOF(data\usstains\WH13\m_white_13_co.paa);
+};
+class GVAR(WhiteHead_13_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_13_USFlash);
+    texture = QPATHTOF(data\usflash\WH13\m_white_13_co.paa);
+};
+
+class GVAR(WhiteHead_14_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH14\m_white_14_co.paa);
+};
+class GVAR(WhiteHead_14_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH14\m_white_14_co.paa);
+};
+class GVAR(WhiteHead_14_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_Black);
+    texture = QPATHTOF(data\black\WH14\m_white_14_co.paa);
+};
+class GVAR(WhiteHead_14_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_Serbian);
+    texture = QPATHTOF(data\serbian\WH14\m_white_14_co.paa);
+};
+class GVAR(WhiteHead_14_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_USStripes);
+    texture = QPATHTOF(data\usstripes\WH14\m_white_14_co.paa);
+};
+class GVAR(WhiteHead_14_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_USStains);
+    texture = QPATHTOF(data\usstains\WH14\m_white_14_co.paa);
+};
+class GVAR(WhiteHead_14_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_14_USFlash);
+    texture = QPATHTOF(data\usflash\WH14\m_white_14_co.paa);
+};
+
+class GVAR(WhiteHead_15_BWTarn): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_BWTarn);
+    texture = QPATHTOF(data\bwtarn\WH15\m_white_15_co.paa);
+};
+class GVAR(WhiteHead_15_BWStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_BWStripes);
+    texture = QPATHTOF(data\bwstripes\WH15\m_white_15_co.paa);
+};
+class GVAR(WhiteHead_15_Black): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_Black);
+    texture = QPATHTOF(data\black\WH15\m_white_15_co.paa);
+};
+class GVAR(WhiteHead_15_Serbian): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_Serbian);
+    texture = QPATHTOF(data\serbian\WH15\m_white_15_co.paa);
+};
+class GVAR(WhiteHead_15_USStripes): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_USStripes);
+    texture = QPATHTOF(data\usstripes\WH15\m_white_15_co.paa);
+};
+class GVAR(WhiteHead_15_USStains): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_USStains);
+    texture = QPATHTOF(data\usstains\WH15\m_white_15_co.paa);
+};
+class GVAR(WhiteHead_15_USFlash): GVAR(WhiteHead_01_BWTarn) {
+    displayname = CSTRING(WhiteHead_15_USFlash);
+    texture = QPATHTOF(data\usflash\WH15\m_white_15_co.paa);
+};
 
 class GVAR(WhiteHead_16_BWTarn): GVAR(WhiteHead_01_BWTarn) {
     displayname = CSTRING(WhiteHead_16_BWTarn);
