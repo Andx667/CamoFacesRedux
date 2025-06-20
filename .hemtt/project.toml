@@ -15,6 +15,7 @@ include = [
     "logo_cfr_ca.paa",
     "LICENSE.md",
     "README.md",
+    "authors.txt",
 ]
 exclude = []
 

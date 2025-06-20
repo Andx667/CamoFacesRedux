@@ -9,5 +9,9 @@
             <English>No Option</English>
             <German>Keine Option</German>
         </Key>
+        <Key ID="STR_CFR_Dialog_Action">
+            <English>Camo Faces</English>
+            <German>Camo Faces</German>
+        </Key>
     </Package>
 </Project>
