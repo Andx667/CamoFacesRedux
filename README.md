@@ -25,7 +25,15 @@ The project is entirely __open-source__ and any contributions are welcome.
 
 ## Core Features
 
-- Feature
+- Adds Camo Faces Variants of many Base Game Faces in multiple variants
+  - Bundeswehr Camouflage
+  - Bundeswher Stripes
+  - Serbian Camouflage
+  - Black
+  - US Stripes
+  - US Flash
+  - US Stain
+- Adds Inventory Item need to camouflage your face
 
 ## Contributing
 
