@@ -20,3 +20,4 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "Dialog.hpp"
+#include "CfgVehicles.hpp"
