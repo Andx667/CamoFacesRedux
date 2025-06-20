@@ -4,13 +4,13 @@
  * Description.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Unit <OBJECT>
  *
  * Return Value:
- * Return description <NONE>
+ * BOOLEAN
  *
  * Example:
- * [params] call PREFIX_dialog_fnc_showAction
+ * [player] call cfr_dialog_fnc_canShowAction
  *
  * Public: No
  */
