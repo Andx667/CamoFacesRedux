@@ -3,9 +3,6 @@
 ![Camo Faces Redux Logo](https://github.com/Andx667/CamoFacesRedux/blob/main/logo_cfr.png)
 
 <p align="center">
-    <a href="https://github.com/Andx667/CamoFacesRedux/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.0.0-blue?style=flat-square" alt="Camo Faces Redux Version">
-    </a>
     <a href="https://github.com/Andx667/CamoFacesRedux/issues">
         <img src="https://img.shields.io/github/issues-raw/Andx667/CamoFacesRedux.svg?style=flat-square&label=Issues" alt="Camo Faces Redux Issues">
     </a>
