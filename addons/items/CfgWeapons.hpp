@@ -1,43 +1,29 @@
-class CfgWeapons
-{
-    class ItemCore;
-    class InventoryItem_Base_F;
-    class Camofaces_ItemCore: ItemCore {
-        type = 4096;
-        detectRange = -1;
-        simulation = "ItemMineDetector";
-    };
-    class GVAR(US_Facepaint): Camofaces_ItemCore {
+class CfgWeapons {
+    class ACE_ItemCore;
+    class CBA_MiscItem_ItemInfo;
+
+    class GVAR(US_Facepaint): ACE_ItemCore  {
+        author = AUTHOR;
         scope = 2;
-        displayName = CSTRING(US_Facepaint_DisplayName);//US-Facepaint-Sticks";
-        descriptionShort = CSTRING(US_Facepaint_descriptionShort);//"used by the american forces";
+        displayName = CSTRING(US_Facepaint_DisplayName);
+        descriptionShort = CSTRING(US_Facepaint_descriptionShort);
         picture = QPATHTOF(data\UI\gear_US_Facepaint.paa);
         model = QPATHTOF(data\US_Facepaint.p3d);
 
-        class ItemInfo: InventoryItem_Base_F {
-            mass = 3;
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 1;
         };
     };
     class GVAR(Serbian_Facepaint): GVAR(US_Facepaint) {
-        scope = 2;
-        displayName = CSTRING(Serbian_Facepaint_DisplayName);//"Serbian-Facepaint-Sticks";
-        descriptionShort = CSTRING(Serbian_Facepaint_descriptionShort);//"used by the Serbian forces";
+        displayName = CSTRING(Serbian_Facepaint_DisplayName);
+        descriptionShort = CSTRING(Serbian_Facepaint_descriptionShort);
         picture = QPATHTOF(data\UI\gear_SERBIAN_Facepaint.paa);
         model = QPATHTOF(data\SERBIAN_Facepaint.p3d);
-
-        class ItemInfo: InventoryItem_Base_F {
-            mass = 3;
-        };
     };
-    class GVAR(BW_FacePaint): GVAR(US_Facepaint) {
-        scope = 2;
+    class GVAR(BW_Facepaint): GVAR(US_Facepaint) {
         displayName = CSTRING(BW_FacePaint_DisplayName);
-        descriptionShort = CSTRING(BW_FacePaint_descriptionShort);//"used by the german forces";
+        descriptionShort = CSTRING(BW_FacePaint_descriptionShort);
         picture = QPATHTOF(data\UI\gear_BW_Facepaint.paa);
         model = QPATHTOF(data\BW_Facepaint.p3d);
-
-        class ItemInfo: InventoryItem_Base_F {
-            mass = 4;
-        };
     };
 };

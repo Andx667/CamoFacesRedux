@@ -8,7 +8,10 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "cfr_main"
+            "cfr_main",
+            "A3_Weapons_F",
+            "ace_common",
+            "cba_common"
         };
         units[] = {
             QGVAR(box),
@@ -22,6 +25,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgEventHandlers.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"

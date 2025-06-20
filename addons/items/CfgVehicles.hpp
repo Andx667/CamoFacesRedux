@@ -1,8 +1,9 @@
 class CfgVehicles {
     class NATO_Box_Base;
     class GVAR(box): NATO_Box_Base {
+        scope = 2;
         displayName = CSTRING(box_displayName);
-        auhtor = AUTHOR;
+        author = AUTHOR;
 
         class TransportWeapons {};
         class TransportMagazines {};
