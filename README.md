@@ -27,7 +27,7 @@ The project is entirely __open-source__ and any contributions are welcome.
 
 - Adds Camo Faces Variants of many Base Game Faces in multiple variants
   - Bundeswehr Camouflage
-  - Bundeswher Stripes
+  - Bundeswehr Stripes
   - Serbian Camouflage
   - Black
   - US Stripes
