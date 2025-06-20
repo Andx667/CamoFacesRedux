@@ -4,3 +4,6 @@ options.banned = [
     "execVM", # Script files should never be run directly, they should be functions
     "remoteExec", # CBA events should be used for networking
 ]
+
+[config.math_could_be_unquoted]
+enabled = "pedantic"
